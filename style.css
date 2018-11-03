@@ -5,28 +5,28 @@
 }
 .soccerbody{
 	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("soccer_stadium.jpeg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: repeat-y;
 	background-position: center;
 
 
 }
 div {
-    display: flex;
+    display:flow-root;
     align-items: center;
 }
 
 
 header, .homebody{
 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("soccer_stadium.jpeg");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: repeat-y;
 	background-position: center;
 }
 
 
 h1 {
-    color: blue;
+    color: yellowgreen;
 	margin-left: 20px;
 	text-align: center;
 }
@@ -40,11 +40,7 @@ h1 {
 }
 
 .secD {
-	width: 1000px;
-
-
-
-
+	width: 100%;
 
 }
 .maindiv{
@@ -53,7 +49,20 @@ h1 {
 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("sports_img2.jpg");
 	background-size: 2000px 2000px;
 	
-
+}
+table, th, td {
+    border: 1px solid white;
+	border-collapse: collapse;
+	tab-size: 30%;
+	text-align: center;
+	color: brown;
+	
+	
+}
+th, td {
+    padding: 5px;
+	text-align: center;
+	color: bisque
 }
 
 .navigation {
@@ -114,14 +123,15 @@ h1 {
 
 }
 .box2{
-	background-color:rgba(192,192,192,0.7);
+	
 	color: white;
-	margin: auto;
+	margin: none;
 	font-family: 'Century Gothic', sans-serif;
-	padding: 40px;
+	padding: 20px;
 	text-align: center;
 	width: 650px;
 	margin-top: 5%;
+	
 
 
 
@@ -138,5 +148,7 @@ h1 {
 }
 
 @media (maxwidth: 375px) {
+
+
 
 }
