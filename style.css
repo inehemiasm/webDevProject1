@@ -124,13 +124,12 @@ th, td {
 }
 .box2{
 	
-	color: white;
-	margin: none;
-	font-family: 'Century Gothic', sans-serif;
+
+	margin: 2px;
 	padding: 20px;
-	text-align: center;
-	width: 650px;
-	margin-top: 5%;
+	text-align: inherit;
+	width: 100%;
+	margin-top: 5px;
 	
 
 
