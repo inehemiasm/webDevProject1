@@ -15,6 +15,21 @@ div {
     display:flow-root;
     align-items: center;
 }
+.ifr{
+
+	width: 1000px;
+	height: 400px;
+	margin-left: 50%;
+
+
+}
+iframe {
+
+	width:33%;
+	height:315px;
+
+}
+
 
 
 header, .homebody{
