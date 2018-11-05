@@ -4,7 +4,7 @@
 	padding: 0;
 }
 .soccerbody{
-	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("soccer_stadium.jpeg");
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("beautuful_giffy.gif");
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-position: center;
@@ -32,9 +32,15 @@ iframe {
 
 
 
-header, .homebody{
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("soccer_stadium.jpeg");
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("beautuful_giffy.gif");
 	background-size: 100%;
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.homebody{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("beautuful_giffy.gif");
+	background-size: cover;
 	background-repeat: repeat-y;
 	background-position: center;
 }
@@ -61,8 +67,8 @@ h1 {
 .maindiv{
 
 	color: brown;
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("sports_img2.jpg");
-	background-size: 2000px 2000px;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("sports_background.jpg");
+	background-size: cover;
 	
 }
 table, th, td {
@@ -71,6 +77,7 @@ table, th, td {
 	tab-size: 30%;
 	text-align: center;
 	color: brown;
+
 	
 	
 }
@@ -145,7 +152,15 @@ th, td {
 	text-align: inherit;
 	width: 100%;
 	margin-top: 5px;
-	
+
+}
+div, p{
+
+color: white;
+width: 100%;
+float: inherit;
+margin-left: 0%;
+font-size: 25px;
 
 
 
@@ -160,8 +175,22 @@ th, td {
 	width: 650px;
 	margin-top: 5%;
 }
+.container {
+	display: flex;
+  }
+  .container > div {
+	flex: 1; /*grow*/
+  }
 
-@media (maxwidth: 375px) {
+.cbody{
+
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url("cricket_lgBg.jpg");
+
+}
+
+@media (maxwidth: 500px) {
+
+
 
 
 
