@@ -8,6 +8,7 @@
 	background-size: 100%;
 	background-repeat: repeat-y;
 	background-position: center;
+	background-attachment: fixed;
 
 
 }
@@ -43,6 +44,7 @@ header{
 	background-size: cover;
 	background-repeat: repeat-y;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 
@@ -69,6 +71,7 @@ h1 {
 	color: brown;
 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("sports_background.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	
 }
 table, th, td {
@@ -185,6 +188,7 @@ font-size: 25px;
 .cbody{
 
 	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url("cricket_lgBg.jpg");
+	background-attachment: fixed;
 
 }
 
